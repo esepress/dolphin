@@ -1,0 +1,181 @@
+body{
+    font-size: 16px;
+}
+
+P{
+    font-size: 21px;
+    font-family: "WeblySleek UI";
+    color: rgb(99, 99, 99);
+    line-height: 1.667;
+}
+
+
+.regular-content{
+    font-family: 'WeblySleek UI';
+}
+header{
+    text-transform: uppercase;
+    color: #007ee5;
+}
+
+/******************************* HEADING ***********************************/
+.section{
+    position: relative;
+    overflow: hidden;
+    padding-top: 120px;
+    padding-bottom: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section-heading{
+    padding-bottom: 75px;
+}
+.section-heading h4{
+    text-transform: uppercase;
+    color: #007ee5;
+}
+.section-sebheading h5{
+    font-size: 21px;
+    color: #007ee5;
+    font-weight: 700;
+    font-family: "WeblySleek UI";
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+/******************************************* WORKFLOW **************************/
+.absolute-image-container {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+/***************************************** PRICING ***************************/
+.pricing-subheading{
+    padding-top: 75px;
+}
+
+.pricing-row{
+    background-color: #ebebeb;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pricing-table{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: #fff;
+    border-top: 10px solid #ebebeb;
+    border-bottom: 10px solid #ebebeb;
+}
+.pricing-table:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    border-top-color: #007ee5;
+
+}
+.pricing-table li{
+    font-family: 'WeblySleek UI Semilight';
+    line-height: 3.75;
+    font-size: 1em;
+    text-align: center;
+    margin:0;
+    padding: 0;
+    color: #666666;
+    border: 1px solid #ededed;
+    margin-bottom: -1px;
+    margin-right: -1px;
+}
+.pricing-table .header{
+    font-family: 'Montserrat', sans-serif;
+    color:#333333;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    line-height: 1;
+
+}
+
+.pricing-table .price-tag{
+    font-family: 'Montserrat', sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(237, 237, 237);
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.price-tag span {
+    position: relative;
+    display: block;
+}
+.price-tag .price{
+    font-size: 45px;
+    font-weight: 700;
+    color: #007ee5;
+    line-height: 1;
+}
+.price-tag .price sup{
+    font-size: 24px;
+    vertical-align: top;
+    top: 16px;
+    color: #636363;
+}
+.price-tag .package-duration{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 2.5;
+    font-size: 10px;
+    font-weight: 400;
+    color: #999999;
+}
+.pricing-feature{
+    font-size: 21px;
+    font-family: "WeblySleek UI";
+    color: rgb(0, 126, 229);
+    line-height: 1.19;
+    padding:15px 10px;
+}
+
+/***************************** COMMON CSS  *********************************/
+
+.no--padding{
+    padding: 0;
+}
+
+
+/****************************** ELEMENT ***********************************/
+
+.bg-gray{
+    background-color: #f4f4f4;
+}
+.feature-with-icon{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.max-width-100{
+    max-width: 100%;
+}
+.text--light{
+    font-family: 'WeblySleek UI Semilight';
+    font-weight: 300;
+}
+.text--semi-bold{
+    font-family: "WeblySleek UI";
+    font-weight: 600;
+}
+.padding-top-bottom-65{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
