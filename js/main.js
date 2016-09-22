@@ -1,7 +1,18 @@
 $(document).ready(function(){
+	// OWL CAROUSEL TESTIMONIAL SLIDE
+	$(".testimonial-sliders").owlCarousel({
+		items:1,
+		itemsDesktop : [1170,1], //5 items between 1000px and 901px
+      	itemsDesktopSmall : [768,1], // betweem 900px and 601px
+      	itemsTablet: [600,1],
+		itemsMobile :[479,1],
+		pagination:false
+	});
+
+	// OWL CAROUSEL BLOG SLIDE
 	$("#blog-carousel").owlCarousel({
 		items:3,
-		itemsDesktop : [1170,4], //5 items between 1000px and 901px
+		itemsDesktop : [1170,3], //5 items between 1000px and 901px
       	itemsDesktopSmall : [768,2], // betweem 900px and 601px
       	itemsTablet: [600,2],
 		itemsMobile :[479,1],
@@ -17,11 +28,11 @@ $(document).ready(function(){
 
 			// Store hash
 			var hash = this.hash;
-
+			var topOffset  = $(hash).offset().top - 90;
 			// Using jQuery's animate() method to add smooth page scroll
 			// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
 			$('html, body').animate({
-				scrollTop: $(hash).offset().top
+				scrollTop: topOffset
 			}, 800, function(){
 
 				// Add hash (#) to URL when done scrolling (default click behavior)
