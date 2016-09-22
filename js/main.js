@@ -2,7 +2,7 @@ $(document).ready(function(){
 	// OWL CAROUSEL TESTIMONIAL SLIDE
 	$(".testimonial-sliders").owlCarousel({
 		items:1,
-		itemsDesktop : [1170,1], //5 items between 1000px and 901px
+		itemsDesktop : [1170,1], //1 items between 1000px and 901px
       	itemsDesktopSmall : [768,1], // betweem 900px and 601px
       	itemsTablet: [600,1],
 		itemsMobile :[479,1],
@@ -12,7 +12,7 @@ $(document).ready(function(){
 	// OWL CAROUSEL BLOG SLIDE
 	$("#blog-carousel").owlCarousel({
 		items:3,
-		itemsDesktop : [1170,3], //5 items between 1000px and 901px
+		itemsDesktop : [1170,3], //3 items between 1000px and 901px
       	itemsDesktopSmall : [768,2], // betweem 900px and 601px
       	itemsTablet: [600,2],
 		itemsMobile :[479,1],
