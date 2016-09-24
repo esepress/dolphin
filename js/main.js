@@ -6,13 +6,17 @@ $(document).ready(function(){
       	itemsDesktopSmall : [768,1], // betweem 900px and 601px
       	itemsTablet: [600,1],
 		itemsMobile :[479,1],
-		pagination:false
+		pagination:false,
+		autoPlay:true,
+		singleItem:true,
+		navigation:true,
+		navigationText:["<i class='ion-ios-arrow-left'></i>","<i class='ion-ios-arrow-right'></i>"]
 	});
 
 	// OWL CAROUSEL BLOG SLIDE
 	$("#blog-carousel").owlCarousel({
 		items:3,
-		itemsDesktop : [1170,3], //3 items between 1000px and 901px
+		itemsDesktop : [1170,3], //3 items between 1000px and 901px i.ion-ios-arrow-left
       	itemsDesktopSmall : [768,2], // betweem 900px and 601px
       	itemsTablet: [600,2],
 		itemsMobile :[479,1],
