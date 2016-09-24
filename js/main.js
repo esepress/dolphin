@@ -10,7 +10,7 @@ $(document).ready(function(){
 		autoPlay:true,
 		singleItem:true,
 		navigation:true,
-		navigationText:["<i class='ion-ios-arrow-left'></i>","<i class='ion-ios-arrow-right'></i>"]
+		navigationText:["<img src='images/arrow-right.png'></img>","<img src='images/arrow-left.png'></img>"]
 	});
 
 	// OWL CAROUSEL BLOG SLIDE

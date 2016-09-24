@@ -1110,3 +1110,18 @@ footer{
     background-color: transparent;
     border-color: #007ee5;
 }
+
+.testimonial-sliders .owl-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.testimonial-sliders .owl-controls .owl-prev{
+    float: left;
+}
+.testimonial-sliders .owl-controls .owl-next{
+    float: right;
+}
+.testimonial-sliders .owl-controls .owl-buttons div{
+    background: transparent !important;
+}
