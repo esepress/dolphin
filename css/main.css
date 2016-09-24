@@ -1141,3 +1141,13 @@ footer{
 .testimonial-sliders .owl-controls .owl-buttons div{
     background: transparent !important;
 }
+.margin-top-bottom-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btn-o{
+    background-color: transparent;
+    color: #007ee5;
+    border-color: #007ee5;
+    border:1px solid;
+}
